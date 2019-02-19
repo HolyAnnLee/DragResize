@@ -1,0 +1,9 @@
+# eslint忽略文件
+
+/node_modules
+build/
+config/
+dll/
+scripts/
+#src/
+src/serviceWorker.js

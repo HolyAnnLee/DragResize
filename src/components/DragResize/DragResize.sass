@@ -1,0 +1,29 @@
+.dragResize {
+    position: absolute;
+
+    :global {
+        .dragResize-edit {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+
+            :global {
+                .dragResize-drag {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+
+                    cursor: move;
+                }
+
+                .dragResize-resize {
+                    position: absolute;
+                }  
+            }
+        }
+    }
+}
